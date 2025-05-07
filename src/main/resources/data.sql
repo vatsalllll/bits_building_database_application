@@ -1,0 +1,21 @@
+INSERT INTO author (id, name) VALUES (1, 'Jane Austen');
+INSERT INTO author (id, name) VALUES (2, 'George Orwell');
+INSERT INTO author (id, name) VALUES (3, 'J.K. Rowling');
+INSERT INTO author (id, name) VALUES (4, 'F. Scott Fitzgerald');
+INSERT INTO author (id, name) VALUES (5, 'Agatha Christie');
+INSERT INTO author (id, name) VALUES (6, 'J.R.R. Tolkien');
+INSERT INTO author (id, name) VALUES (7, 'Ernest Hemingway');
+INSERT INTO author (id, name) VALUES (8, 'Virginia Woolf');
+INSERT INTO author (id, name) VALUES (9, 'Mark Twain');
+INSERT INTO author (id, name) VALUES (10, 'Charles Dickens');
+
+INSERT INTO book (id, title, published_date, author_id) VALUES (1, 'Pride and Prejudice', '1813-01-28', 1);
+INSERT INTO book (id, title, published_date, author_id) VALUES (2, '1984', '1949-06-08', 2);
+INSERT INTO book (id, title, published_date, author_id) VALUES (3, 'Harry Potter and the Philosopher''s Stone', '1997-06-26', 3);
+INSERT INTO book (id, title, published_date, author_id) VALUES (4, 'The Great Gatsby', '1925-04-10', 4);
+INSERT INTO book (id, title, published_date, author_id) VALUES (5, 'Murder on the Orient Express', '1934-01-01', 5);
+INSERT INTO book (id, title, published_date, author_id) VALUES (6, 'The Hobbit', '1937-09-21', 6);
+INSERT INTO book (id, title, published_date, author_id) VALUES (7, 'The Old Man and the Sea', '1952-09-01', 7);
+INSERT INTO book (id, title, published_date, author_id) VALUES (8, 'To the Lighthouse', '1927-05-05', 8);
+INSERT INTO book (id, title, published_date, author_id) VALUES (9, 'Adventures of Huckleberry Finn', '1884-12-10', 9);
+INSERT INTO book (id, title, published_date, author_id) VALUES (10, 'A Tale of Two Cities', '1859-04-30', 10); 
